@@ -1,0 +1,16 @@
+#left-eye,
+#right-eye {
+  animation: look-around 3s linear infinite alternate;
+}
+
+@keyframes look-around {
+
+  0% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+
+}
