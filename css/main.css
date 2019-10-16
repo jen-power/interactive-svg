@@ -14,3 +14,14 @@
   }
 
 }
+
+#left-ear,
+#right-ear {
+  transform: translateY(-10px);
+  transition: all .5s linear;
+}
+
+#bear:hover #left-ear,
+#bear:hover #right-ear {
+  transform: translateY(0px);
+}
